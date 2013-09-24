@@ -44,12 +44,18 @@ pageNotification是一个基于kissy的页面级别消息通知组件。
     })
 
 ## API说明
- * success(message, title, optionsOverride)	 : 成功类通知
- * info(message, title, optionsOverride)	 	 : 信息类通知
- * warning(message, title, optionsOverride)	 : 警告类通知
- * error(message, title, optionsOverride)		 : 错误类通知
- * clear()										 : 清除所有通知
- * remove()										 : 删除指定通知
+ * success(message, title, optionsOverride)	  
+ 成功类通知
+ * info(message, title, optionsOverride)	 	 
+ 信息类通知
+ * warning(message, title, optionsOverride)	 
+ 警告类通知
+ * error(message, title, optionsOverride)		 
+ 错误类通知
+ * clear()										 
+ 清除所有通知
+ * remove()										 
+ 删除指定通知
  
 ##备注
 本组件移植自[toastr](https://github.com/CodeSeven/toastr)
