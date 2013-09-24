@@ -7,7 +7,6 @@ KISSY.add(function (S, Node,Base,Anim) {
     var EMPTY = '';
     var $ = Node.all;
     var defaultConfig = {
-        tapToDismiss : true,
         wrapClass : 'page-notification-wrap',
         className : 'page-notification',
         containerId : 'J_pageNotification',
