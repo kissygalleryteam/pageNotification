@@ -69,5 +69,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-kmc');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-copy');
-    return grunt.registerTask('default', ['kmc', 'uglify']);
+    return grunt.registerTask('default', ['kmc', 'uglify', 'copy', 'cssmin']);
 };
