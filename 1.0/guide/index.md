@@ -1,6 +1,6 @@
 ## 综述
 
-pageNotification是一个页面级别的消息通知组件。
+pageNotification是一个基于kissy的页面级别消息通知组件。
 
 * 版本：1.0
 * 作者：yuyu1911@gmail.com
@@ -26,7 +26,21 @@ pageNotification是一个页面级别的消息通知组件。
 ## 初始化组件
 
     S.use('gallery/pageNotification/1.0/index', function (S, PageNotification) {
-         var pageNotification = new PageNotification(options);
+         var pageNotification = new PageNotification({
+  									"closeButton": true,
+  									"positionClass": "page-notification-top-right",
+  									"onclick": null,
+  									"showDuration": "300",
+  									"hideDuration": "1000",
+  									"timeOut": "5000",
+  									"extendedTimeOut": "1000",
+  									"showEasing": "swing",
+  									"hideEasing": "linear",
+  									"showMethod": "fadeIn",
+  									"hideMethod": "fadeOut"
+		});
+		
+		pageNotification.success("恭喜你，获得土豪金一部。", "来往");
     })
 
 ## API说明
