@@ -1,0 +1,14 @@
+{
+    "name": "pageNotification",
+    "version": "1.0",
+    "desc": "",
+    "cover": "",
+    "tag":"notification",
+    "author": {
+        "name": "yuyu1911@gmail.com",
+        "email": "yuyu1911@gmail.com",
+        "page": ""
+    },
+    "type": "kissy-gallery",
+    "type-url": "http://gallery.kissyui.com/guide"
+}
