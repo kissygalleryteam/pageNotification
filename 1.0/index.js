@@ -81,7 +81,6 @@ KISSY.add(function (S, Node,Base,Anim) {
                         speed: config.hideDuration,
                         easing: config.hideEasing,
                         complete: function(){
-                            console.info('我关闭啦');
                             self.remove(wrapEl);
                             if (config.onHidden) {
                                 config.onHidden();
