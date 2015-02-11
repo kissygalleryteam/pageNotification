@@ -2,6 +2,7 @@ KISSY.add('kg/notification/1.0.0/index',["./index.css","node","base","event","ua
 
 
 
+
 require('./index.css');
 
 var Node = require('node')
@@ -44,11 +45,7 @@ var transition = (function () {
     }
 })();
 
-/**
- * DOM是否存在
- * @param element
- * @returns {boolean}
- */
+
 function isDOMExist(element) {
   while (element = element.parentNode) {
     if (element == document) {
@@ -153,9 +150,7 @@ var Notification = Base.extend({
       this.createNoticeDom(renderData);
 
 
-      /**
-       * 点击box上关闭按钮
-       */
+      
       Event.delegate($container, 'click', '.close', function(event){
         var $target = Node.one(event.target)
           ,$box = $target.parent('.vc-notify-box')
@@ -186,9 +181,7 @@ var Notification = Base.extend({
       });
 
 
-      /**
-       * 点击box container的空白处，可以删除box；
-       */
+      
       var container = $container.getDOMNode(), removeBgTimeId, i = 0;
       $container.on('click', function(event){
         if(event.target === container){
@@ -301,12 +294,12 @@ var Notification = Base.extend({
       }else{
         this.$container.append($noticeClone);
 
-        //for safari(8.0.2)  操蛋呀
+        
         $noticeClone.addClass('remove-transtion');
 
-        $noticeClone.css('height', $noticeClone.height() + "px");//for animate
+        $noticeClone.css('height', $noticeClone.height() + "px");
 
-        //for safari(8.0.2)  操蛋呀
+        
         document.body.offsetWidth;
         $noticeClone.removeClass('remove-transtion');
       }
