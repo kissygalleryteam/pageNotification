@@ -1,0 +1,1 @@
+KISSY.config("requires",{"kg/notification/1.0.0/content-box-render":["./content-box","kg/xtemplate/3.3.3/runtime"],"kg/notification/1.0.0/index":["./index.css","node","base","event","ua","kg/xtemplate/3.3.3/runtime","./content-box"],"kg/notification/1.0.0/lib/main":["node","base"]});
