@@ -1,0 +1,1 @@
+KISSY.add("kg/notification/1.0.0/content-box-render",["./content-box","kg/xtemplate/3.3.3/runtime"],function(n,t,e,o){var r=t("./content-box"),a=t("kg/xtemplate/3.3.3/runtime"),i=new a(r);o.exports=function(){return i.render.apply(i,arguments)}});
