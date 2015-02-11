@@ -2,7 +2,7 @@
 
 版本1.0.0
 
-![http://gtms03.alicdn.com/tps/i3/TB1mYvEHXXXXXbsXpXXifb32pXX-220-160.png](http://gtms03.alicdn.com/tps/i3/TB1mYvEHXXXXXbsXpXXifb32pXX-220-160.png)
+![http://gtms02.alicdn.com/tps/i2/TB1DApgHXXXXXbOXXXXFvIM3VXX-434-180.png](http://gtms02.alicdn.com/tps/i2/TB1DApgHXXXXXbOXXXXFvIM3VXX-434-180.png)
 
 notification组件的制作思路是满足大众化普遍的需求力求使用简单；
 
